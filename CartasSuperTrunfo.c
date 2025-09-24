@@ -7,7 +7,7 @@
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
 
-    char estado[10];         //estado
+    char estado[10] = "massachussets";         //estado
     char código[3];          //código da carta
     char cidade[15];         //O nome da cidade
     int  habitantes;         //O número de habitantes da cidade
