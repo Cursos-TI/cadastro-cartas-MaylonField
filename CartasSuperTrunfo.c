@@ -22,7 +22,7 @@ int main() {
 
     char carta1[1];                          //carta
     char estado1[30] = "Tokyo";              //estado
-    char codigo1[30] = "B01" ;                 //código da carta 
+    char codigo1[30] = "B01" ;               //código da carta 
     char cidade1[30] = "Tokyo";              //O nome da cidade
     int  habitantes1 = 14250000;             //O número de habitantes da cidade
     float Área1 = 218900;                    // A área da cidade em quilometros quadrados
