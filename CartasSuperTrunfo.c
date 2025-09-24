@@ -9,25 +9,25 @@ int main() {
   
   // Área para definição das variáveis para armazenar as propriedades das cidades.
 
-    char carta[1];                           //carta
-    char estado[14] = "Massachusetts";       //estado
-    char codigo[10] = "A01";                 //código da carta
-    char cidade[15] = "Boston";              //O nome da cidade
-    int  habitantes = 673458 ;               //O número de habitantes da cidade
-    float Área = 2321000 ;                   //A área da cidade em quilometros quadrados
-    float PIB = 363000000 ;                  //O produto Interno Bruto da cidade
-    int pontosturisticos = 20;               //A quantidade de pontos Turísticos na cidade
+    char carta[1];                           //carta.
+    char estado[14] = "Massachusetts";       //estado.
+    char codigo[10] = "A01";                 //código da carta.
+    char cidade[15] = "Boston";              //O nome da cidade.
+    int  habitantes = 673458 ;               //O número de habitantes da cidade.
+    float Área = 2321000 ;                   //A área da cidade em quilometros quadrados.
+    float PIB = 363000000 ;                  //O produto Interno Bruto da cidade.
+    int pontosturisticos = 20;               //A quantidade de pontos Turísticos na cidade.
 
     // As Cartas B terminaram com numero 1 no final para diferenciar os dados.
 
-    char carta1[1];                          //carta
-    char estado1[30] = "Tokyo";              //estado
-    char codigo1[30] = "B01" ;               //código da carta 
-    char cidade1[30] = "Tokyo";              //O nome da cidade
-    int  habitantes1 = 14250000;             //O número de habitantes da cidade
-    float Área1 = 218900;                    // A área da cidade em quilometros quadrados
-    float PIB1 = 113000000000;               // O produto Interno Bruto da cidade
-    int pontosturisticos1 = 20;              // A quantidade de pontos Turísticos na cidade
+    char carta1[1];                          //carta.
+    char estado1[30] = "Tokyo";              //estado.
+    char codigo1[30] = "B01" ;               //código da carta.
+    char cidade1[30] = "Tokyo";              //O nome da cidade.
+    int  habitantes1 = 14250000;             //O número de habitantes da cidade.
+    float Área1 = 218900;                    // A área da cidade em quilometros quadrados.
+    float PIB1 = 113000000000;               // O produto Interno Bruto da cidade.
+    int pontosturisticos1 = 20;              // A quantidade de pontos Turísticos na cidade.
 
   
        // Área para entrada de dados 
@@ -38,19 +38,19 @@ int main() {
        printf("Vamos começar!\n");
        
        // seleção e impressão da carta A
-       printf("Digite a carta A: ");                                       // seleçao determinada de uma carta ( carta A)
-       scanf("\n %c", carta);                                              // dado armazenado da carta A
+       printf("Digite a carta A: ");                                       // seleçao determinada de uma carta ( carta A).
+       scanf("\n %c", carta);                                              // dado armazenado da carta A.
        printf(" - Codigo: %s\n - Estado: %s\n", codigo, estado);           // selecão e impressão de Codigo e Estado.
        printf(" - Cidade: %s\n - Habitantes: %d\n", cidade, habitantes);   // selecão e impressão de Cidade e Habitantes.
-       printf(" - Área: %.2f km²\n - PIB: R$ %.2f\n", Área, PIB);          // selecão e impressão de Tamanho por quilometro da cidade e PIB.
+       printf(" - Área: %.2f km²\n - PIB: R$ %.2f\n", Área, PIB);          // selecão e impressão de Área por quilometro da cidade e PIB.
        printf(" - Pontos Turísticos: %d\n", pontosturisticos);             // selecão e impressão de Pontos Turisticos.
 
       // seleção e impressão da carta B
        printf("\n Digite a carta B: ");                                    // seleçao determinada de uma carta ( carta B).
        scanf("\n %c", carta1);                                             // dado armazenado da carta B.
        printf(" - Codigo: %s\n - Estado: %s\n", codigo1, estado1);         // selecão e impressão de Codigo e Estado.
-       printf(" - Cidade: %s\n - Habitantes: %d\n", cidade1, habitantes1); // selecão e impressão  de Cidade e Habitantes.
-       printf(" - Área: %.2f km²\n - PIB: R$%.2f\n", Área1, PIB1);         // selecão e impressão de Tamanho por quilometro e PIB.
+       printf(" - Cidade: %s\n - Habitantes: %d\n", cidade1, habitantes1); // selecão e impressão de Cidade e Habitantes.
+       printf(" - Área: %.2f km²\n - PIB: R$%.2f\n", Área1, PIB1);         // selecão e impressão de Área por quilometro da cidade e PIB.
        printf(" - Pontos Turísticos: %d\n", pontosturisticos1);            // selecão e impressão de Pontos Turísticos.
 
 
