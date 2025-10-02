@@ -50,7 +50,7 @@ int main() {
        printf(" - Cidade: %s\n - Habitantes: %d\n", cidade, habitantes);   // selecão e impressão de Cidade e Habitantes.
        printf(" - Área: %.2f km²\n - PIB: U$%.2f bilhões\n", Área, PIB);          // selecão e impressão de Área por quilometro da cidade e PIB.
        printf(" - Pontos Turísticos: %d\n", pontosturisticos);             // selecão e impressão de Pontos Turisticos.
-       printf(" - Densidade populacional: %.2f km²\n",densidadepopulacional);
+       printf(" - Densidade populacional: %.1f km²\n",densidadepopulacional);
        printf(" - PIB per capita:%.1f dolares\n", pibpc);
   
       // seleção e impressão da carta B
