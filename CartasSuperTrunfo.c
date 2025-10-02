@@ -43,6 +43,7 @@ int main() {
        printf("Vamos começar!\n");
        
        // seleção e impressão da carta A
+
        printf("\nDigite a carta A: ");                                       // seleçao determinada de uma carta ( carta A).
        scanf("\n %c", carta);                                              // dado armazenado da carta A.
        printf(" - Codigo: %s\n - Estado: %s\n", codigo, estado);           // selecão e impressão de Codigo e Estado.
@@ -50,7 +51,7 @@ int main() {
        printf(" - Área: %.2f km²\n - PIB: U$%.2f bilhões\n", Área, PIB);          // selecão e impressão de Área por quilometro da cidade e PIB.
        printf(" - Pontos Turísticos: %d\n", pontosturisticos);             // selecão e impressão de Pontos Turisticos.
        printf(" - Densidade populacional: %.2f km²\n",densidadepopulacional);
-       printf(" - PIB per capita:R$%.2f\n", pibpc);
+       printf(" - PIB per capita:%.1f dolares\n", pibpc);
   
       // seleção e impressão da carta B
        printf("\n Digite a carta B: ");                                    // seleçao determinada de uma carta ( carta B).
@@ -59,8 +60,8 @@ int main() {
        printf(" - Cidade: %s\n - Habitantes: %d\n", cidade1, habitantes1); // selecão e impressão de Cidade e Habitantes.
        printf(" - Área: %.2f km²\n - PIB: U$%.2f trilhões\n", Área1, PIB1);         // selecão e impressão de Área por quilometro da cidade e PIB.
        printf(" - Pontos Turísticos: %d\n", pontosturisticos1);            // selecão e impressão de Pontos Turísticos.
-       printf(" - Densidade populacional: %2f km²\n", densidadepopulacional1);
-       printf(" - PIB per capita: U$%.2f trilhões\n", pibpc1);
+       printf(" - Densidade populacional: %1f km²\n", densidadepopulacional1);
+       printf(" - PIB per capita: %.1f dolares\n", pibpc1);
     
        
 
