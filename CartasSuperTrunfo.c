@@ -39,7 +39,7 @@ int main() {
 
        printf("Seja muito bem-vindo(a) ao SuperTrunfo!\n");                // um breve convite e motivação para o jogador.
        printf("Um Jogo unico de cartas\n");
-       printf("Preparado(a) para ser o grande vencedor(a)? \n");
+       printf("Preparado(a) para ser o(a) grande vencedor(a)? \n");
        printf("Vamos começar!\n");
        
        // seleção e impressão da carta A
