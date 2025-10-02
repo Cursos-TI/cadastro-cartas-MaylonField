@@ -30,7 +30,7 @@ int main() {
     float Área1 = 218900;                    // A área da cidade em quilometros quadrados.
     float PIB1 = 1400000000.00;               // O produto Interno Bruto da cidade.
     int pontosturisticos1 = 20;              // A quantidade de pontos Turísticos na cidade.
-    float densidadepopulacional = (float) habitantes1 / Área1;
+    float densidadepopulacional1 = (float) habitantes1 / Área1;
     float pibpc1 = (float) PIB1 / habitantes1;
                  
 
@@ -59,8 +59,8 @@ int main() {
        printf(" - Cidade: %s\n - Habitantes: %d\n", cidade1, habitantes1); // selecão e impressão de Cidade e Habitantes.
        printf(" - Área: %.2f km²\n - PIB: U$%.2f trilhões\n", Área1, PIB1);         // selecão e impressão de Área por quilometro da cidade e PIB.
        printf(" - Pontos Turísticos: %d\n", pontosturisticos1);            // selecão e impressão de Pontos Turísticos.
-       printf(" - Densidade populacional: %2f km²\n", densidadepopulacional);
-       printf(" - PIB per capita: U$%.2f trilhoes\n", pibpc);
+       printf(" - Densidade populacional: %2f km²\n", densidadepopulacional1);
+       printf(" - PIB per capita: U$%.2f trilhões\n", pibpc1);
     
        
 
