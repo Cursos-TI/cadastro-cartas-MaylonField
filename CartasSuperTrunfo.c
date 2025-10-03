@@ -7,7 +7,7 @@
 int main() {
 
   
-  // Área para definição das variáveis para armazenar as propriedades das cidades.
+   // Área para definição das variáveis para armazenar as propriedades das cidades.
 
     char carta[1];                                                         //carta.
     char estado[14] = "Massachusetts";                                     //estado.
@@ -21,7 +21,7 @@ int main() {
     float pibpc = (float) PIB / habitantes;                                //Dado de entrada do PIB per capita, PIB dividido por habitates. 
                  
 
-    // A Carta B, tem numero 1 no final para diferenciar os dados.
+   // A Carta B, tem numero 1 no final para diferenciar os dados.
 
     char carta1[1];                                                       //cartaB.
     char estado1[30] = "Tokyo";                                           //estadoB.
