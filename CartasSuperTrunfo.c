@@ -45,14 +45,14 @@ int main() {
        
        // seleção e impressão da carta A
 
-       printf("\nDigite a carta A: ");                                                 // seleçao determinada de uma carta ( carta A).
+       printf("\n Digite a carta A: ");                                                 // seleçao determinada de uma carta ( carta A).
        scanf("\n %c", carta);                                                          // dado armazenado da carta A.
        printf(" - Codigo: %s\n - Estado: %s\n", codigo, estado);                       // selecão e impressão de Codigo e Estado.
        printf(" - Cidade: %s\n - Habitantes: %d\n", cidade, habitantes);               // selecão e impressão de Cidade e Habitantes.
        printf(" - Área: %.2f km²\n - PIB: U$%.2f bilhões\n", Área, PIB);               // selecão e impressão de Área por quilometro da cidade e PIB.
        printf(" - Pontos Turísticos: %d\n", pontosturisticos);                         // selecão e impressão de Pontos Turisticos.
        printf(" - Densidade populacional: %.1f hab/km²\n",densidadepopulacional);      // seleção e impressão da densidade populacional por quilometro².
-       printf(" - PIB per capita:%.1f dolares\n", pibpc);                              // seleção e impressão do PIB per capita.
+       printf(" - PIB per capita: U$%.1f dolares\n", pibpc);                              // seleção e impressão do PIB per capita.
   
       // seleção e impressão da carta B
 
@@ -63,7 +63,7 @@ int main() {
        printf(" - Área: %.2f km²\n - PIB: U$%.2f trilhões\n", Área1, PIB1);           // selecão e impressão de Área por quilometro da cidade e PIB.
        printf(" - Pontos Turísticos: %d\n", pontosturisticos1);                       // selecão e impressão de Pontos Turísticos.
        printf(" - Densidade populacional: %1f hab/km²\n", densidadepopulacional1);    // seleção e impressão da densidade populacional por quilometro².
-       printf(" - PIB per capita: %.1f dolares\n", pibpc1);                           // seleção e impressão do PIB per capita.
+       printf(" - PIB per capita: U$%.1f dolares\n", pibpc1);                           // seleção e impressão do PIB per capita.
     
        
 
