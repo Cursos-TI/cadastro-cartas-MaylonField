@@ -7,52 +7,57 @@
 int main() {
 
   
-   // Área para definição das variáveis para armazenar as propriedades das cidades.
+  // Área para definição das variáveis para armazenar as propriedades das cidades.
 
     char carta[1];                                                         //carta.
     char estado[14] = "Massachusetts";                                     //estado.
     char codigo[10] = "A01";                                               //código da carta.
     char cidade[15] = "Boston";                                            //O nome da cidade.
     int  habitantes = 673458;                                              //O número de habitantes da cidade.
-    float Área = 2321000;                                                  //A área da cidade em quilometros quadrados.
+    float Área = 232140;                                                  //A área da cidade em quilometros quadrados.
     float PIB = 363000000.00;                                              //O produto Interno Bruto da cidade.
     int pontosturisticos = 20;                                             //A quantidade de pontos Turísticos na cidade.
     float densidadepopulacional = (float) habitantes / Área;               //Dado de entrada da densidade populacional,habitantes dividido por Área.
     float pibpc = (float) PIB / habitantes;                                //Dado de entrada do PIB per capita, PIB dividido por habitates. 
-                 
+    float densidadepopulacionalInvertida = 1 / densidadepopulacional;       //Dado de entrada da densidade populacional invertida, 1 dividido pela densidade populacional.
+    float superPoder = (float) habitantes + Área + PIB + densidadepopulacionalInvertida + pontosturisticos + pibpc; //Dado de entrada do super poder, soma de todos os atributos da carta.
 
-   // A Carta B, tem numero 1 no final para diferenciar os dados.
+                                                          
+    // A Carta B, tem numero 1 no final para diferenciar os dados.
 
     char carta1[1];                                                       //cartaB.
     char estado1[30] = "Tokyo";                                           //estadoB.
     char codigo1[30] = "B01" ;                                            //código da cartaB.
     char cidade1[30] = "Tokyo";                                           //O nome da cidadeB.
     int  habitantes1 = 14250000;                                          //O número de habitantes da cidadeB.
-    float Área1 = 218900;                                                 //A área da cidade em quilometros quadrados.
+    float Área1 = 627000;                                                 //A área da cidade em quilometros quadrados.
     float PIB1 = 1400000000.00;                                           //O produto Interno Bruto da cidade.
     int pontosturisticos1 = 20;                                           //A quantidade de pontos Turísticos na cidade.
     float densidadepopulacional1 = (float) habitantes1 / Área1;           //Dado de entrada da densidade populacional,habitantes dividido por Área.
-    float pibpc1 = (float) PIB1 / habitantes1;                            //Dado de entrada do PIB per capita, PIB dividido por habitates. 
-                 
+    float pibpc1 = (float) PIB1 / habitantes1;                            //Dado de entrada do PIB per capita, PIB dividido por habitates.
+    float densidadepopulacionalInvertida1 = 1 / densidadepopulacional1;   //Dado de entrada da densidade populacional invertida, 1 dividido pela densidade populacional.
+    float superPoder1 = (float) habitantes1 + Área1 + PIB1 + densidadepopulacionalInvertida1 + pontosturisticos1 + pibpc1; //Dado de entrada do super poder, soma de todos os atributos da carta B.
+
+    int resultadoA, resultadoB, resultadoC, resultadoD, resultadoE, resultadoF, resultadoG;                                       //resultado 
 
   
        // Área para entrada de dados 
 
        printf("Seja muito bem-vindo(a) ao SuperTrunfo!\n");                //Um breve convite e motivação para o jogador.
-       printf("Um Jogo unico de cartas\n");
+       printf("Um Jogo unico de cartas!\n");
        printf("Preparado(a) para ser o(a) grande vencedor(a)? \n");
        printf("Vamos começar!\n");
        
        // seleção e impressão da carta A
 
-       printf("\n Digite a carta A: ");                                                 // seleçao determinada de uma carta ( carta A).
+       printf("\nDigite a carta A: ");                                                 // seleçao determinada de uma carta ( carta A).
        scanf("\n %c", carta);                                                          // dado armazenado da carta A.
        printf(" - Codigo: %s\n - Estado: %s\n", codigo, estado);                       // selecão e impressão de Codigo e Estado.
        printf(" - Cidade: %s\n - Habitantes: %d\n", cidade, habitantes);               // selecão e impressão de Cidade e Habitantes.
        printf(" - Área: %.2f km²\n - PIB: U$%.2f bilhões\n", Área, PIB);               // selecão e impressão de Área por quilometro da cidade e PIB.
        printf(" - Pontos Turísticos: %d\n", pontosturisticos);                         // selecão e impressão de Pontos Turisticos.
-       printf(" - Densidade populacional: %.1f hab/km²\n",densidadepopulacional);      // seleção e impressão da densidade populacional por quilometro².
-       printf(" - PIB per capita: U$%.1f dolares\n", pibpc);                              // seleção e impressão do PIB per capita.
+       printf(" - Densidade populacional: %.2f hab/km²\n",densidadepopulacional);      // seleção e impressão da densidade populacional por quilometro².
+       printf(" - PIB per capita: U$%.2f dolares\n", pibpc);                           // seleção e impressão do PIB per capita.
   
       // seleção e impressão da carta B
 
@@ -62,10 +67,32 @@ int main() {
        printf(" - Cidade: %s\n - Habitantes: %d\n", cidade1, habitantes1);            // selecão e impressão de Cidade e Habitantes.
        printf(" - Área: %.2f km²\n - PIB: U$%.2f trilhões\n", Área1, PIB1);           // selecão e impressão de Área por quilometro da cidade e PIB.
        printf(" - Pontos Turísticos: %d\n", pontosturisticos1);                       // selecão e impressão de Pontos Turísticos.
-       printf(" - Densidade populacional: %1f hab/km²\n", densidadepopulacional1);    // seleção e impressão da densidade populacional por quilometro².
-       printf(" - PIB per capita: U$%.1f dolares\n", pibpc1);                           // seleção e impressão do PIB per capita.
-    
-       
+       printf(" - Densidade populacional: %.2f hab/km²\n", densidadepopulacional1);   // seleção e impressão da densidade populacional por quilometro².
+       printf(" - PIB per capita: U$%.2f dolares\n", pibpc1);                         // seleção e impressão do PIB per capita.
+
+       resultadoA = habitantes > habitantes1;
+       resultadoB = Área > Área1;
+       resultadoC = PIB > PIB1;
+       resultadoD = pontosturisticos > pontosturisticos1;
+       resultadoE = densidadepopulacional > densidadepopulacional1;
+       resultadoF = pibpc > pibpc1;
+       resultadoG = superPoder > superPoder1;
+
+       printf("\nResultados das comparações:\n");
+       printf("A carta A tem mais habitantes que a carta B? %d\n", resultadoA);
+       printf("A carta A tem uma área maior que a carta B? %d\n", resultadoB);
+       printf("A carta A tem um PIB maior que a carta B? %d\n", resultadoC);
+       printf("A carta A tem mais pontos turísticos que a carta B? %d\n", resultadoD);
+       printf("A carta A tem uma densidade populacional maior que a carta B? %d\n", resultadoE);
+       printf("A carta A tem um PIB per capita maior que a carta B? %d\n", resultadoF);
+       printf("A carta A tem um super poder maior que a carta B? %d\n", resultadoG);
+
+
+
+  
+
+
+
 
 
   return 0;
