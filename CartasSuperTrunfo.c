@@ -24,7 +24,7 @@ int main() {
     float densidadepopulacionalInvertida1 = 1 / densidadepopulacional1;   //Dado de entrada da densidade populacional invertida, 1 dividido pela densidade populacional.
     float superPoder1 = (float) habitantes1 + Área1 + PIB1 + densidadepopulacionalInvertida1 + pontosturisticos1 + pibpc1; //Dado de entrada do super poder, soma de todos os atributos da carta A.
 
-    //Dados de entrada da carta B com final 2 para diferenciar;
+    //Dados de entrada da carta B, com final 2 para diferenciar os dados;
 
     char carta2[1];                                                         //cartaB.
     char estado2[14] = "Massachusetts";                                     //estadoB.
@@ -39,7 +39,7 @@ int main() {
     float densidadepopulacionalInvertida2 = 1 / densidadepopulacional2;     //Dado de entrada da densidade populacional invertida, 1 dividido pela densidade populacional.
     float superPoder2 = (float) habitantes2 + Área2 + PIB2 + densidadepopulacionalInvertida2 + pontosturisticos2 + pibpc2; //Dado de entrada do super poder, soma de todos os atributos da carta B.
 
-    int resultadoA, resultadoB, resultadoC, resultadoD, resultadoE, resultadoF, resultadoG;        //resultados das comparações entre as cartas A e B. 
+    int resultadoA, resultadoB, resultadoC, resultadoD, resultadoE, resultadoF, resultadoG;        // entrada de dado das variaveis resultados
 
   
        // Área para entrada de dados 
@@ -47,7 +47,7 @@ int main() {
        printf("Seja muito bem-vindo(a) ao SuperTrunfo!\n");                //Um breve convite e motivação para o jogador.
        printf("Um Jogo unico de cartas!\n");
        printf("Preparado(a) para ser o(a) grande vencedor(a)? \n");
-       printf("Vamos começar!\n");
+       printf("Vamos começar!!!\n");
        
        // seleção e impressão da carta A
 
@@ -71,7 +71,7 @@ int main() {
        printf(" - Densidade populacional: %.2f hab/km²\n", densidadepopulacional2);   // seleção e impressão da densidade populacional por quilometro².
        printf(" - PIB per capita: U$%.2f dolares\n", pibpc2);                         // seleção e impressão do PIB per capita.
 
-       resultadoA = habitantes1 > habitantes2;    // comparações entre as cartas A e B.
+       resultadoA = habitantes1 > habitantes2;    // calculo diferencial de maior e menor, entre as cartas A e B.
        resultadoB = Área1 > Área2;
        resultadoC = PIB1 > PIB2;
        resultadoD = pontosturisticos1 > pontosturisticos2;
