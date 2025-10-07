@@ -51,7 +51,7 @@ int main() {
        
        // seleção e impressão da carta A
 
-       printf("\nDigite a carta A: ");                                                 // seleçao determinada de uma carta ( carta A).
+       printf("\nDigite a carta A: ");                                                 // seleção determinada de uma carta ( carta A).
        scanf("\n %c", carta1);                                                         // dado armazenado da carta A.
        printf(" - Codigo: %s\n - Estado: %s\n", codigo1, estado1);                     // selecão e impressão de Codigo e Estado.
        printf(" - Cidade: %s\n - Habitantes: %d\n", cidade1, habitantes1);             // selecão e impressão de Cidade e Habitantes.
@@ -79,8 +79,10 @@ int main() {
        resultadoF = pibpc1 < pibpc2;
        resultadoG = superPoder1 > superPoder2;
 
-       printf("\nResultados das comparações:\n");                       // impressão dos resultados das comparações entre as cartas A e B.
-       printf("Habitantes: Carta A venceu %d\n", resultadoA);
+        // impressão dos resultados das comparações entre as cartas A e B.
+
+       printf("\nResultados das comparações:\n");                          // resultados com numero 1 é o vencedor.
+       printf("Habitantes: Carta A venceu %d\n", resultadoA);            
        printf("Área: Carta A venceu %d\n", resultadoB);
        printf("PIB: Carta A venceu %d\n", resultadoC);
        printf("Pontos Turísticos: Carta A venceu %d\n", resultadoD);
