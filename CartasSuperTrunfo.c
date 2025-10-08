@@ -59,8 +59,8 @@ int main() {
        printf(" - Pontos Turísticos: %d\n", pontosturisticos1);                        // selecão e impressão de Pontos Turisticos.
        printf(" - Densidade populacional: %.2f hab/km²\n",densidadepopulacional1);     // seleção e impressão da densidade populacional por quilometro².
        printf(" - PIB per capita: U$%.2f dolares\n", pibpc1);                          // seleção e impressão do PIB per capita.
-       printf(" - Densidade Invertida: %.2f hab/km²\n", densidadepopulacionalInvertida1);
-       printf(" - Super Poder: %lld\n", superPoder1);
+       printf(" - Densidade Invertida: %.2f hab/km²\n", densidadepopulacionalInvertida1); //seleção e impressão da densidade populacional invertida.
+       printf(" - Super Poder: %.2f\n", superPoder1);                                      // seleção e impressão do super poder
   
       // seleção e impressão da carta B
 
@@ -72,8 +72,8 @@ int main() {
        printf(" - Pontos Turísticos: %d\n", pontosturisticos2);                       // selecão e impressão de Pontos Turísticos.
        printf(" - Densidade populacional: %.2f hab/km²\n", densidadepopulacional2);   // seleção e impressão da densidade populacional por quilometro².
        printf(" - PIB per capita: U$%.2f dolares\n", pibpc2);                         // seleção e impressão do PIB per capita.
-       printf(" - Densidade Invertida: %.2f hab/km²\n", densidadepopulacionalInvertida2);
-       printf(" - Super Poder: %lld\n", superPoder2);
+       printf(" - Densidade Invertida: %.2f hab/km²\n", densidadepopulacionalInvertida2); // seleção e impresão da densidade populacional invertida.
+       printf(" - Super Poder: %.2f\n", superPoder2);                                     //seleção e impressão do superpoder.
 
       
 
@@ -95,25 +95,25 @@ int main() {
          printf(" - Carta B vendeu!\n");
        }
        
-       if( PIB1 > PIB2){
+       if( PIB1 > PIB2){                            //comparação de pib
          printf(" - Carta A venceu!\n");
        } else {
          printf(" - Carta B vendeu!\n");
        }
 
-       if( densidadepopulacional1 > densidadepopulacional2){
+       if( densidadepopulacional1 < densidadepopulacional2){   //comparação de densidade populacional
          printf(" - Carta A venceu!\n");
        } else {
          printf(" - Carta B vendeu!\n");
        }
 
-       if( pibpc1 > pibpc2){
-         printf(" - Carta A venceu!\n");
+       if( pibpc1 > pibpc2){                                    //comparação de pib per capita
+         printf(" - Carta A venceu!\n");     
        } else {
          printf(" - Carta B vendeu!\n");
        }
 
-       if( superPoder1 > superPoder2){
+       if( superPoder1 > superPoder2){                          // comparação dos super poderes
          printf(" - Carta A venceu!\n");
        } else {
          printf(" - Carta B vendeu!\n");
