@@ -75,7 +75,7 @@ int main() {
        printf(" - Densidade Invertida: %.2f hab/km²\n", densidadepopulacionalInvertida2); // seleção e impresão da densidade populacional invertida.
        printf(" - Super Poder: %.2f\n", superPoder2);                                     //seleção e impressão do superpoder.
 
-      
+       printf("\n Vamos comparar as cartas!\n"); // chamado de comparação.
 
        if( habitantes1 > habitantes2){             //comparação de valores dos habitantes, se é maior ou menor.
          printf("\n - Carta A venceu!\n");
