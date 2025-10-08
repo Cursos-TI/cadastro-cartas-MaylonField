@@ -38,7 +38,7 @@ int main() {
     float pibpc2 = (float) PIB2 / habitantes2;                              //Dado de entrada do PIB per capita, PIB dividido por habitates.
     float densidadepopulacionalInvertida2 = 1 / densidadepopulacional2;     //Dado de entrada da densidade populacional invertida, 1 dividido pela densidade populacional.
     float superPoder2 = (float) habitantes2 + Área2 + PIB2 + densidadepopulacionalInvertida2 + pontosturisticos2 + pibpc2; //Dado de entrada do super poder, soma de todos os atributos da carta B.
-
+    char cidade vende
     int resultadoA, resultadoB, resultadoC, resultadoD, resultadoE, resultadoF, resultadoG;        //resultados das comparações entre as cartas A e B. 
 
   
@@ -78,46 +78,49 @@ int main() {
        printf("\n Vamos comparar as cartas!\n"); // chamado de comparação.
 
        if( habitantes1 > habitantes2){             //comparação de valores dos habitantes, se é maior ou menor.
-         printf("\n - Carta A venceu!\n");
+         printf("\n - Carta A tem maior população!\n");
        } else {
-         printf(" - Carta B vendeu!\n");
+         printf(" - Carta B tem maior população!\n");
        }
 
        if( Área1 > Área2){                        //comparação da Área, se é maior ou menor.
-         printf(" - Carta A venceu!\n");
+         printf(" - Carta A tem maior Área!\n");
        } else {
-         printf(" - Carta B vendeu!\n");
+         printf(" - Carta B tem maior Área!\n");
        }
 
        if( pontosturisticos1 > pontosturisticos2){  //comparação de pontos Turisticos
-         printf(" - Carta A venceu!\n");
+         printf(" - Carta A tem mais Pontos turisticos!\n");
        } else {
-         printf(" - Carta B vendeu!\n");
+         printf(" - Carta B tem mais pontos turisticos!\n");
        }
        
        if( PIB1 > PIB2){                            //comparação de pib
-         printf(" - Carta A venceu!\n");
+         printf(" - Carta A tem maior PIB!\n");
        } else {
-         printf(" - Carta B vendeu!\n");
+         printf(" - Carta B tem Maior PIB !\n");
        }
 
        if( densidadepopulacional1 < densidadepopulacional2){   //comparação de densidade populacional
-         printf(" - Carta A venceu!\n");
+         printf(" - Carta A tem menor densidade populacional!\n");
        } else {
-         printf(" - Carta B vendeu!\n");
+         printf(" - Carta B tem menor densidade populacional!\n");
        }
 
        if( pibpc1 > pibpc2){                                    //comparação de pib per capita
-         printf(" - Carta A venceu!\n");     
+         printf(" - Carta A tem maior PIB per Capita!\n");     
        } else {
-         printf(" - Carta B vendeu!\n");
+         printf(" - Carta B tem PIB per Capita!\n");
        }
 
        if( superPoder1 > superPoder2){                          // comparação dos super poderes
-         printf(" - Carta A venceu!\n");
+         printf(" - Carta A tem maior super poder!\n");
        } else {
-         printf(" - Carta B vendeu!\n");
+         printf(" - Carta B tem maior super poder!\n");
+      
        }
+
+       printf("A cidade vencedora é: %s\n", )
        
        
        
